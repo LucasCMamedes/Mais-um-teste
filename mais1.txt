@@ -1,0 +1,12 @@
+// Programa otimizado para dar vários hello world
+#include <iostream>
+using namespace std;
+int main(){
+int a;
+cin >> a;
+int i;
+for (i=0; i<a; i++){
+cout<< "Hello world " << i;
+}
+return 0;
+}
